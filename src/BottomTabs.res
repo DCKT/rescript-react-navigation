@@ -30,7 +30,7 @@ type rec options = {
   tabBarBadgeStyle?: Style.t,
   tabBarAccessibilityLabel?: string,
   tabBarTestID?: string,
-  tabBarButton: unit => React.element, // TODO: props
+  tabBarButton?: unit => React.element, // TODO: props
   tabBarColor?: Color.t,
   tabBarActiveTintColor?: string,
   tabBarInactiveTintColor?: string,
