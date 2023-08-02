@@ -154,7 +154,7 @@ and headerParams = {
   route: route,
   options: options,
   layout: layout,
-  back: headerBackImageProps => React.element,
+  back: option<headerBackImageProps => React.element>,
   styleInterpolator: headerStyleInterpolator,
 }
 
