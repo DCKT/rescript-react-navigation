@@ -41,8 +41,8 @@ type rec options = {
   tabBarStyle?: Style.t,
   tabBarBackground?: unit => React.element,
   \"lazy"?: bool,
-  unmountOnBlur: bool,
-  freezeOnBlur: bool,
+  unmountOnBlur?: bool,
+  freezeOnBlur?: bool,
   header?: headerParams => React.element,
   headerShown?: bool,
   // Header props from https://reactnavigation.org/docs/elements#header
